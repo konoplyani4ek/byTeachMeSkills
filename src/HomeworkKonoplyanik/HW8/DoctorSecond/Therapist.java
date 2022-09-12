@@ -1,4 +1,4 @@
-package HomeworkKonoplyanik.HW7.DoctorsSecond;
+package HomeworkKonoplyanik.HW8.DoctorSecond;
 
 public class Therapist  extends Doctor{
 

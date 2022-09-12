@@ -1,4 +1,4 @@
-package HomeworkKonoplyanik.HW9;
+package HomeworkKonoplyanik.HW8.PhoneFirst;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,5 +11,7 @@ public class Main {
         iphone.receiveCall("Andrew","1543");
         samsung.receiveCall("Kiryl");
         huawei.receiveCall("Vladimir");
+
+        iphone.sendMessage("102,193,193");
     }
 }

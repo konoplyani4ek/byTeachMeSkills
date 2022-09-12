@@ -1,4 +1,4 @@
-package HomeworkKonoplyanik.HW9;
+package HomeworkKonoplyanik.HW8.PhoneFirst;
 
 public class Phone {
     String number;
@@ -20,6 +20,13 @@ public class Phone {
     }
     public void receiveCall(String name,String phoneNumber){
         System.out.println("Calling " +name + " from the number " +phoneNumber);
+    }
+    public void sendMessage(String ... numbers){
+        for (String number : numbers) {
+            System.out.println("Sending message to "+number);
+        }
+
+
     }
     public String getNumber() {
         return number;
