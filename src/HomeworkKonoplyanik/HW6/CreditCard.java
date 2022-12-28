@@ -9,12 +9,15 @@ public class CreditCard {
     }
 
     public void addBalance(int amount) {
-        balance+=amount;
+        balance += amount;
     }
-    public void withdrawBalance (int amount) {
-        balance-=amount;
+
+    public void withdrawBalance(int amount) {
+        balance -= amount;
     }
-    public void getInfo(int account){
-        System.out.println("current balance is "+ getBalance());
+
+    public void getInfo(int account) {
+        System.out.println("current balance is " + getBalance());
     }
 }
+// 123 percy

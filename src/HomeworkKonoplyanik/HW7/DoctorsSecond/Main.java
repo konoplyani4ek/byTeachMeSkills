@@ -7,12 +7,13 @@ public class Main {
 
     public static void main(String[] args) {
 //get all filled clients
-
-        Client[] clients = getClients();
+       Client[] clients = getClients();
 
         for (Client client : clients) {
             //get needed doctor
-            Doctor doctor = DoctorFactory.getDoctorByMedicalPlan(client.getMedicalPlan());
+            MedicalPlan plan = client.getMedicalPlan();
+            Doctor doctor = DoctorFactory.getDoctorByMedicalPlan(plan);
+            doctor.greet();
             doctor.heal(client);
         }
     }
